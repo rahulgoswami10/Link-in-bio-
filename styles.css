@@ -49,10 +49,10 @@ header {
 }
 
 .profile-pic img {
-    /* height: 140px;
-    width: 132px; */
-    height: 144px;
-    width: 130px;
+    height: 98px;
+    width: 90px;
+    /* height: 144px;
+    width: 130px; */
     border-radius: 50%;
     border: 2.5px solid #fff;
     box-shadow: 0 10px 16px black;
