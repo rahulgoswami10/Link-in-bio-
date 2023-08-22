@@ -3,7 +3,8 @@ body, html {
     padding: 0;
     font-family: "Open Sans", sans-serif;
     /* background-image: url("./assets/bg1.jpg"); */
-    background-color: #222;
+    /* background-color: #222; */
+    background-color: black;
     color: #fff;
 }
 
