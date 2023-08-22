@@ -64,7 +64,9 @@ header > h1 {
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 1rem;
-    background-color: #000a;
+    /* background-color: #000a; */
+    background-color: hsl(0 0% 20% / 0.5);
+    backdrop-filter: blur(.4rem);
     color: #fff;
     padding: 0.3rem 0.75rem;
     border: 1px solid #fffa;
@@ -82,7 +84,9 @@ ul {
 
 ul > li {
     /* background-color: #fffa; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: hsl(0 0% 15% / .75);
+    backdrop-filter: blur(.1rem);
     /* backdrop-filter: blur(10px) saturate(160%) contrast(180%); */
     /* -wekit-backdrop-filter: blur(10px) saturate(160%) contrast(180%); */
     border-radius: 10rem;
@@ -102,11 +106,13 @@ ul > li > a {
 
 ul > li > a:hover {
     /* text-decoration: underline; */
-    color: tomato;
+    /* color: tomato; */
+    color: #47ff20;
 }
 
 a {
-    color: black;
+    /* color: black; */
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
 }
