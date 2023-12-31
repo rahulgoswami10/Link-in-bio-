@@ -11,8 +11,8 @@ body, html {
 body {
    /* background-image: url("./assets/bg.jpg");
     background-size: cover;
-      background-position: center; 
-    height: 100vh;*/
+      background-position: center; */
+    height: 100vh;
    /* background-color: white;*/
 }
 
@@ -167,6 +167,16 @@ li a img {
     }
 }
 
+@media screen and (max-width: 560px) {
+    header {
+        padding-top: 2rem;
+    }
+
+    ul {
+        gap: .25rem;
+        column-gap: 1rem;
+    }
+}
 
 
 
